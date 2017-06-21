@@ -42,6 +42,36 @@ class MembersController {
 
 	}
 
+	// members/check
+	function check(){
+		echo 'm check';
+
+		$resouce = 'members';
+		$action = 'check';
+
+		include('views/layouts/application.php');
+
+	}
+
+	// members/check
+	function thanks(){
+		echo 'm thanks';
+
+		$resouce = 'members';
+		$action = 'thanks';
+
+		include('views/layouts/application.php');
+
+	}
+
+	// members/logout
+	function logout(){
+		echo 'm logout';
+
+		
+
+	}
+
 }
 
 
